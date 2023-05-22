@@ -1,0 +1,120 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Header */
+  header {
+    background-color: #cd701f;
+    color: #27add5;
+    padding: 20px;
+  }
+  
+  header h1 {
+    margin: 0;
+    font-size: 36px;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-left: 20px;
+  }
+  
+  nav ul li a {
+    color: #0f169c;
+    text-decoration: none;
+  }
+  
+  /* Sections */
+  section {
+    margin-bottom: 40px;
+  }
+  
+  section h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  section p {
+    margin-bottom: 10px;
+  }
+  
+  /* About Section */
+  #about {
+    background-color: #619144;
+    padding: 60px 0;
+    text-align: center;
+  }
+  
+  #about h2 {
+    color: #7db622;
+  }
+  
+  #about img {
+    border-radius: 10%;
+    max-width: 20px;
+    margin-bottom: 20px;
+  }
+  
+  /* Contact Section */
+  #contact {
+    background-color: #993636;
+    padding: 60px 0;
+    text-align: center;
+  }
+  
+  #contact-form {
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  
+  form label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  form input[type="text"],
+  form input[type="email"],
+  form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #9ebc49;
+    border-radius: 4px;
+    margin-bottom: 10px;
+  }
+  
+  form input[type="submit"] {
+    background-color: #5f40ad;
+    color: #ba2323;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  form input[type="submit"]:hover {
+    background-color: #953535;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #f367a6;
+    color: #0e010f;
+    padding: 20px;
+    text-align: center;
+  }
